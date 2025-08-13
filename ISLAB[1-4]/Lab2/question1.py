@@ -1,4 +1,7 @@
 # Q1: DES encryption/decryption
+import sys
+print(sys.executable)
+
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad, unpad
 import binascii
